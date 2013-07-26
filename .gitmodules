@@ -1,0 +1,3 @@
+[submodule "MDBlurViewDemo/MDBlurView"]
+	path = MDBlurViewDemo/MDBlurView
+	url = git@github.com:mochidev/MDBlurView.git
