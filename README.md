@@ -1,7 +1,7 @@
 MDBlurView Demo
 ==================
 
-![Screenshot](https://github.com/mochidev/MDPageControlDemo/raw/master/Artwork/Screenshot.png)
+![Screenshot](https://github.com/mochidev/MDBlurViewDemo/raw/master/Artwork/Screenshot.png)
 
 Purpose
 -------
