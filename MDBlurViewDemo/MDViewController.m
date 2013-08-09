@@ -82,10 +82,16 @@
 
 - (IBAction)toggleMask:(id)sender
 {
-    if (!self.blurView.maskView) {
-        self.blurView.maskView = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"Circle"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)]];
+    if (!self.blurView.maskImage) {
+        self.blurView.maskImage = [[UIImage imageNamed:@"Circle"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)];
+        
+//        self.blurView.maskView = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"Circle"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)]];
+//        self.blurView.overlayMaskView = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"Circle"] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 10, 10)]];
     } else {
-        self.blurView.maskView = nil;
+        self.blurView.maskImage = nil;
+        
+//        self.blurView.maskView = nil;
+//        self.blurView.overlayMaskView = nil;
     }
 }
 
