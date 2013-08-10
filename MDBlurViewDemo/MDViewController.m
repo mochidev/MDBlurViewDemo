@@ -58,7 +58,7 @@
 
 - (IBAction)changeBlurRadius:(UISlider *)sender
 {
-    self.blurView.blurRadius = sender.value;
+    self.blurView.blurFraction = sender.value;
 }
 
 - (IBAction)changeColor:(UISlider *)sender
