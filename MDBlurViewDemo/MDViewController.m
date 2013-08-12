@@ -64,6 +64,9 @@
 - (IBAction)changeColor:(UISlider *)sender
 {
     self.blurView.backgroundTintColor = [UIColor colorWithHue:_hue.value saturation:_sat.value brightness:_bright.value alpha:_alpha.value];
+    
+    _testSwatchA.backgroundColor = [UIColor colorWithHue:_hue.value saturation:_sat.value brightness:_bright.value alpha:1];
+    _testSwatchB.backgroundColor = [UIColor colorWithHue:_hue.value saturation:_sat.value brightness:_bright.value alpha:_alpha.value];
 }
 
 - (IBAction)makeSmall:(id)sender

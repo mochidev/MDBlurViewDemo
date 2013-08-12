@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4471.1" systemVersion="13A524d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4488.2" systemVersion="13A538g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3697.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDViewController">
@@ -13,6 +13,8 @@
                 <outlet property="hue" destination="11" id="7I8-PU-hJr"/>
                 <outlet property="sat" destination="14" id="Yj5-B9-jke"/>
                 <outlet property="scrollView" destination="8" id="JTs-OE-0FG"/>
+                <outlet property="testSwatchA" destination="9hO-2c-dXJ" id="BQT-EB-u15"/>
+                <outlet property="testSwatchB" destination="UzY-jE-epA" id="IDr-me-ehQ"/>
                 <outlet property="view" destination="6" id="7"/>
             </connections>
         </placeholder>
@@ -40,6 +42,11 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.0" green="0.073474537529999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
+                        <view contentMode="scaleToFill" id="5qu-6C-2cg">
+                            <rect key="frame" x="102" y="151" width="106" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </view>
                         <view contentMode="scaleToFill" id="18">
                             <rect key="frame" x="242" y="85" width="247" height="165"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -61,6 +68,16 @@
                 </scrollView>
                 <view contentMode="scaleToFill" id="9" customClass="MDBlurView">
                     <rect key="frame" x="44" y="85" width="233" height="137"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="9hO-2c-dXJ">
+                    <rect key="frame" x="53" y="241" width="23" height="25"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="UzY-jE-epA">
+                    <rect key="frame" x="84" y="241" width="23" height="25"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>

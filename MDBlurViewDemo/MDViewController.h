@@ -41,6 +41,8 @@
 @property (weak, nonatomic) IBOutlet UISlider *bright;
 @property (weak, nonatomic) IBOutlet UISlider *alpha;
 @property (weak, nonatomic) IBOutlet MDBlurView *blurView;
+@property (weak, nonatomic) IBOutlet UIView *testSwatchA;
+@property (weak, nonatomic) IBOutlet UIView *testSwatchB;
 
 - (IBAction)changeBlurRadius:(id)sender;
 - (IBAction)changeColor:(id)sender;
